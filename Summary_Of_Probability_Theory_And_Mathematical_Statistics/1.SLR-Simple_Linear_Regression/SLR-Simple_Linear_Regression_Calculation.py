@@ -9,7 +9,7 @@ import seaborn as sns # 导入seaborn库，相比于matplotlib库有更多的函
 # 机器学习库
 from sklearn.model_selection import train_test_split # 导入sklearn(机器学习)库，用于分割训练数据和测试数据(一般80%用于训练,20%用于检验模型)
 from sklearn.linear_model import LinearRegression # 导入线性回归模型库
-from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error # 导入三个评价指标
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error # 导入三个评价指标（MSE,R^2,MAE）
 
 # 统计分析库
 import statsmodels.api as sm # 统计分析库
