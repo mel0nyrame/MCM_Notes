@@ -8,8 +8,10 @@
 
 ## 思路流程图
 
+<div style="text-align: center;">
+
 ```mermaid
-graph LR
+graph TD
 a(先统一量纲) --> b(求差值,得到差值的矩阵)
 b --> c(找矩阵中的最大值和最小值)
 c --> d(用公式计算关联系数)

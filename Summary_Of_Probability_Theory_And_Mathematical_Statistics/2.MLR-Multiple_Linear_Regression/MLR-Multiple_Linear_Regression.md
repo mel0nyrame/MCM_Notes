@@ -38,8 +38,11 @@ Y: 因变量(需要预测的值)
 
 ## 建立模型流程
 
+<div style="text-align: center;">
+
+
 ```mermaid
-graph LR
+graph TD
 a(数据准备) --> b(线性条件判断)
 b --> c(回归模型建立)
 c --> d(模型检验与评价)
