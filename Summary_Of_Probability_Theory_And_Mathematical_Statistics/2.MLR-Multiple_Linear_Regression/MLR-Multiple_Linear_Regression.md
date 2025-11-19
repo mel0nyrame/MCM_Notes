@@ -38,9 +38,6 @@ Y: 因变量(需要预测的值)
 
 ## 建立模型流程
 
-<div style="text-align: center;">
-
-
 ```mermaid
 graph TD
 a(数据准备) --> b(线性条件判断)
