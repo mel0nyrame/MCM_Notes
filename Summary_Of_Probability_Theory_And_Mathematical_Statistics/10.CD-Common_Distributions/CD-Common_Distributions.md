@@ -28,7 +28,7 @@ X的分布列记为 $X \sim \{p_i\}$
 
 $F(x) = P (X \leq x)$
 
-分布函数:$F(x) = \sum_{xi < x}p(x_i)$
+分布函数:$F(x) = \sum_{x_i < x}p(x_i)$
 
 ### 密度函数
 

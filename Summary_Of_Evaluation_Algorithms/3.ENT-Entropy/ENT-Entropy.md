@@ -19,8 +19,6 @@
 
 ## 思路流程图
 
-<div style="text-align: center;">
-
 ```mermaid
 graph TD
 a(**概率值**离散程度越大,**信息熵**越小) --> b(**信息熵**越小,**信息效用值**越大)
@@ -43,7 +41,7 @@ z_{ij} = \frac{x_{ij}}{\sqrt{\sum_{i=1}^n x^2_{ij}}}
 ### 3.归一化
 
 \[
-p_{ij} = \frac{z_{ij}}{\sum^n_{ij}z_{ij}}
+p_{ij} = \frac{z_{ij}}{\sum^n_{i = 1}z_{ij}}
 \]
 
 ### 4.求信息熵,信息效用值,进而求熵权

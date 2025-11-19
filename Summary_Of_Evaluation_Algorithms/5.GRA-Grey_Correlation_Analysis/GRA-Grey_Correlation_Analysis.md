@@ -8,8 +8,6 @@
 
 ## 思路流程图
 
-<div style="text-align: center;">
-
 ```mermaid
 graph TD
 a(先统一量纲) --> b(求差值,得到差值的矩阵)
@@ -33,7 +31,7 @@ d --> e(按条件求和得到关联度,关联度越大,关联性越强)
 #### (1)均值化变换
 
 \[
-f(x(k) = \frac{x(k)}{x(l)} )，\quad (x(l) \neq 0)
+f(x(k)) = \frac{x(k)}{x(l)}，\quad (x(l) \neq 0)
 \]
 
 #### (2)初始化变换
